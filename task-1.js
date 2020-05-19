@@ -11,6 +11,16 @@ console.log('Первое задание');
 
 let mas1t = [ [14, 45], [1], ['a', 'c', 'd'] ];
 
-mas1t.sort()
+mas1t.sort((a, b) => {
+    if (a.length > b.length){
+        return 1;
+    }
+    if (a.length < b.length) {
+        return -1;
+    }
+    else {
+        return 0;}
+
+});
 
 console.log(mas1t);

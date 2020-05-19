@@ -25,8 +25,8 @@ let mas2t = [
 ];
 
 mas2t.sort(function(a, b){
-    return a.info.cores-b.info.cores
-  })
+    return a.info.cores-b.info.cores;
+  });
 
   console.log(mas2t);
   
